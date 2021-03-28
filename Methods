@@ -1,0 +1,4 @@
+console.log('Codecademy'.toUpperCase()); //uses the toUpperCase method to return string codecademy as all upper case.
+
+
+console.log('    Remove whitespace   '.trim());//uses the trim method to remove whitespace.
