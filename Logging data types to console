@@ -1,0 +1,4 @@
+console.log('JavaScript'); //prints JavaScript
+console.log(2011);//prints 2011
+console.log('Woohoo! I love to code! #codecademy'); //prints Woohoo! I love to code! #codecademy
+console.log(20.49); //20.49
