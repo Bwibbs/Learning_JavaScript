@@ -1,0 +1,3 @@
+var myName = 'Bryce';
+var myCity = 'Rochester';
+console.log(`My name is ${myName}.  My favorite city is ${myCity}.`) //uses template literal and logs it to the console.
