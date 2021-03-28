@@ -1,0 +1,10 @@
+const Kelvin = 293; //setting the Kelvin variable as a constant
+
+const Celsius = Kelvin - 273.15; //formula to convert kelvin to celsius
+
+const Fahrenheit = (Celsius*(9/5)) + 32; //formula to convert celsius to fahrenheit
+
+console.log(Kelvin);// logs kelvin variable to console.
+console.log(Math.floor(Celsius)); //logs the celsius variable to console and rounds the variable.
+console.log(Math.floor(Fahrenheit))//logs the fahrenheit variable to console and rounds the variable.
+console.log(`The temperature is ${Math.floor(Fahrenheit)} degrees Fahrenheit.`);
