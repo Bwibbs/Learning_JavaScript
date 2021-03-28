@@ -1,0 +1,3 @@
+var favoriteAnimal = 'dog'//creates favorite animal variable
+
+console.log('My favorite animal: ' + favoriteAnimal); //concatenates a string with a variable and logs it to console
