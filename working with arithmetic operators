@@ -1,0 +1,4 @@
+console.log(3.5 + 35); //prints 38.5 to console
+console.log(2021 - 1969); //prints 52 to console
+console.log(65 / 240); //prints 0.2708333333 repeating to console
+console.log(0.2708 * 100); // prints 27.08 to console
