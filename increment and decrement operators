@@ -1,0 +1,7 @@
+let gainedDollar = 3;
+let lostDollar = 50;
+
+gainedDollar++; //increases the gaineDollar variable by 1
+lostDollar--; //decreases the lostDollar by 1
+
+console.log(gainedDollar, lostDollar); //logs to console the values stored in the variables.
