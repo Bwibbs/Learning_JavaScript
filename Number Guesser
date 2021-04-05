@@ -1,0 +1,35 @@
+let humanScore = 0;
+let computerScore = 0;
+let currentRoundNumber = 1;
+
+// Write your code below:
+function generateTarget(number){ //function that randomly generates a number between 0 and 9.
+  return Math.floor(Math.random() * 10);
+}
+
+function compareGuesses(human, computer, secret) { // function that determine which guess is the closest to the secret number.
+  if (Math.abs (human - secret) < Math.abs(computer - secret)) {
+    return true;
+  } else if (Math.abs(human - secret) > Math.abs(computer - secret )) {
+    return false;
+  } else {
+    return 'Invalid';
+  }
+}
+
+function updateScore(string) {// function that increases the winners score.
+  let winner ='';
+  if(winner === 'human') {
+    console.log(humanScore += 1);
+  } else if(winner === 'computer') {
+    console.log(computerScore += 1);
+  }
+}
+
+function advanceRound() { //function that updates the round.
+  currentRoundNumber += 1;
+}
+
+console.log(compareGuesses());
+console.log(advanceRound());
+console.log(updateScore());
