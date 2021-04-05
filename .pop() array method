@@ -1,0 +1,4 @@
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+
+chores.pop(); //removes the last element from the chores array.
+console.log(chores);// logs the update chores array to the console.
