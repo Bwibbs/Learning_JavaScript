@@ -1,0 +1,17 @@
+const concept = ['arrays', 'can', 'be', 'mutated'];
+
+function changeArr(arr){ //function that reassignd the 4th element of the array called concept.
+  arr[3] = 'MUTATED';
+}
+
+changeArr(concept); //calls the changeArr function with the argument of concept.
+
+console.log(concept) //logs to console the updated concept array.
+
+function removeElement(newArr) { //function that removes the last element of an array
+  newArr.pop()
+}
+
+removeElement(concept); //calls the function called removeElement with concept as the argument
+
+console.log(concept); //logs to console the updated concept array.
