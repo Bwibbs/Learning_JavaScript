@@ -1,0 +1,3 @@
+const hobbies = ['coin  collecting', 'stamp collecting', 'coding']; //creates array called hobbies
+
+console.log(hobbies);//logs to console the array called hobbies
