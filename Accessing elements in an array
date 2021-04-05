@@ -1,0 +1,6 @@
+const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious thing.', 'Where there is love there is life.'];
+
+let listItem = famousSayings[0]; //assigns the 1st element in famousSayings array to variable called listItem
+console.log(listItem); //logs to console the variable called listItem.
+console.log(famousSayings[2]);//logs to console the third element in famousSayings array.
+console.log(famousSayings[3]);//logs to console the fourth element in famousSayings array.
