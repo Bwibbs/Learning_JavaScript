@@ -1,0 +1,4 @@
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+
+chores.push('vacuum', 'dust'); //adds vacuum and dust to the end of the chores array
+console.log(chores); //logs to console the updated chores array
