@@ -1,0 +1,2 @@
+const numberClusters = [[1, 2], [3, 4], [5, 6]]; //creates nested array called numberClusters.
+const target = numberClusters[2][1]; //declared a variable called target and assigned the element 6 from numberClusters to it.
