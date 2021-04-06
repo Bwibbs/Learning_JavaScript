@@ -1,0 +1,9 @@
+// Write your code below
+let cupsOfSugarNeeded = 2;
+let cupsAdded = 0;
+
+do{
+  cupsAdded++
+} while (cupsAdded < cupsOfSugarNeeded);//do...while loop to increments cupsAdded by 1 while cupsAdded is less then cupsOfSugarNeeded.
+
+console.log(cupsAdded);
