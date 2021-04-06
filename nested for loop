@@ -1,0 +1,11 @@
+// Write your code below
+const bobsFollowers = ['Tim', 'Steve', 'Larry', 'Ron'];
+const tinasFollowers = ['Sara', 'Ron', 'Steve'];
+const mutualFollowers = [];
+for (let i = 0; i < bobsFollowers.length; i++) {
+  for (let j = 0; j < tinasFollowers.length; j++) {
+    if (bobsFollowers[i] === tinasFollowers[j]) {
+       mutualFollowers.push(bobsFollowers[i]);
+    }
+  }
+}; //this loop checks to see if the current element in the outer loop is the same as the current element in the inner loop.  If it is it stores in in the empty array.
