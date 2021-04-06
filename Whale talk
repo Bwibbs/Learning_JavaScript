@@ -1,0 +1,18 @@
+let input = 'Do. Or do not. There is no try.';
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+let resultArray = [];
+
+for (let i = 0; i < input.length; i++) {
+  for (let j = 0; j < vowels.length; j++) {
+    if ( input[i] === vowels [j]){
+      if (input[i] === 'e'){
+        resultArray.push('ee');
+      } else if(input[i] === 'u') {
+        resultArray.push('uu');
+      } else {
+        resultArray.push(input[i]);
+      }
+    }
+  }
+} //for loop that iterates through input variable and the vowels variable.  For every e and u it pushes ee and uu into resultArray
+console.log(resultArray.join('').toUpperCase());
