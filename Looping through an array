@@ -1,0 +1,6 @@
+const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+
+// Write your code below
+for (let i = 0; i < vacationSpots.length; i++) {
+  console.log('I would love to visit '+ vacationSpots[i]);
+} // loops through the vacationSpots array and adds the string 'I would love to visit ' before each element in the array.
