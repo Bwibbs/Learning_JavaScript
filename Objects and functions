@@ -1,0 +1,17 @@
+let spaceship = {
+  'Fuel Type' : 'Turbo Fuel',
+  homePlanet : 'Earth'
+};
+
+// Write your code below
+let greenEnergy = obj => {
+  obj['Fuel Type'] = 'avocado oil';
+}//function that takes object as a parameter and changes the fuel type.
+
+let remotelyDisable = obj => {
+  obj.disabled = true;
+}// function that takes object as a parameter and sets disabled to true.
+
+greenEnergy(spaceship);
+remotelyDisable(spaceship);
+console.log(spaceship);
