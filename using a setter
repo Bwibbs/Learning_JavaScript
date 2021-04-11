@@ -20,4 +20,4 @@ const robot = {
 };
 
 robot.numOfSensors = 100; //assign value to the numOfSensors.
-console.log(robot.numOfSensors)//c
+console.log(robot.numOfSensors)//check to see if the setter method worked.
